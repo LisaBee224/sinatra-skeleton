@@ -1,0 +1,8 @@
+
+<% if @errors %>
+  <ol>
+    <% @errors.each do |message| %>
+      <li><%= message %></li>
+    <% end %>
+  </ol>
+<% end %>
